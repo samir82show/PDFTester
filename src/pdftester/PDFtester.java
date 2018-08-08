@@ -33,7 +33,7 @@ public class PDFtester {
             }
 //        formField.setValue(new StringBuilder(new ArabicShaping(ArabicShaping.LETTERS_SHAPE_TASHKEEL_ISOLATED).shape(s)).reverse().toString());
 //        formField.setDefaultAppearance("/Helv 0 Tf 0 g");
-
+            System.out.println("this one is to test fetch and push");
             doc.save("c:\\data\\immigration_letters\\templates\\RPRequest.pdf");
         }
     }
